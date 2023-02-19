@@ -1,0 +1,305 @@
+package ui.css.spacing
+
+val m = M.instance
+
+class M private constructor() {
+    val auto = "m-auto"
+    val n0 = "m-0 "
+    val n0_5 = "m-0.5 "
+    val n1 = "m-px "
+    val n1_5 = "m-1.5 "
+    val n2 = "m-2 "
+    val n2_5 = "m-2.5 "
+    val n3 = "m-3 "
+    val n3_5 = "m-3.5 "
+    val n4 = "m-4 "
+    val n5 = "m-5 "
+    val n6 = "m-6 "
+    val n7 = "m-7 "
+    val n8 = "m-8 "
+    val n9 = "m-9 "
+    val n10 = "m-10 "
+    val n11 = "m-11 "
+    val n12 = "m-12 "
+    val n14 = "m-14 "
+    val n16 = "m-16 "
+    val n20 = "m-20 "
+    val n24 = "m-24 "
+    val n28 = "m-28 "
+    val n32 = "m-32 "
+    val n36 = "m-36 "
+    val n40 = "m-40 "
+    val n44 = "m-44 "
+    val n48 = "m-48 "
+    val n52 = "m-52 "
+    val n56 = "m-56 "
+    val n60 = "m-60 "
+    val n64 = "m-64 "
+    val n72 = "m-72 "
+    val n80 = "m-80 "
+    val n96 = "m-96 "
+
+    // DIMENSIONS
+    val x = X.instance
+    val y = Y.instance
+    val t = T.instance
+    val r = R.instance
+    val b = B.instance
+    val l = L.instance
+
+    class X private constructor() {
+        val auto = "mx-auto"
+        val n0 = "mx-0 "
+        val n0_5 = "mx-0.5 "
+        val n1 = "mx-px "
+        val n1_5 = "mx-1.5 "
+        val n2 = "mx-2 "
+        val n2_5 = "mx-2.5 "
+        val n3 = "mx-3 "
+        val n3_5 = "mx-3.5 "
+        val n4 = "mx-4 "
+        val n5 = "mx-5 "
+        val n6 = "mx-6 "
+        val n7 = "mx-7 "
+        val n8 = "mx-8 "
+        val n9 = "mx-9 "
+        val n10 = "mx-10 "
+        val n11 = "mx-11 "
+        val n12 = "mx-12 "
+        val n14 = "mx-14 "
+        val n16 = "mx-16 "
+        val n20 = "mx-20 "
+        val n24 = "mx-24 "
+        val n28 = "mx-28 "
+        val n32 = "mx-32 "
+        val n36 = "mx-36 "
+        val n40 = "mx-40 "
+        val n44 = "mx-44 "
+        val n48 = "mx-48 "
+        val n52 = "mx-52 "
+        val n56 = "mx-56 "
+        val n60 = "mx-60 "
+        val n64 = "mx-64 "
+        val n72 = "mx-72 "
+        val n80 = "mx-80 "
+        val n96 = "mx-96 "
+
+        companion object {
+            val instance = X()
+        }
+    }
+
+    class Y private constructor() {
+        val auto = "my-auto"
+        val n0 = "my-0 "
+        val n0_5 = "my-0.5 "
+        val n1 = "my-px "
+        val n1_5 = "my-1.5 "
+        val n2 = "my-2 "
+        val n2_5 = "my-2.5 "
+        val n3 = "my-3 "
+        val n3_5 = "my-3.5 "
+        val n4 = "my-4 "
+        val n5 = "my-5 "
+        val n6 = "my-6 "
+        val n7 = "my-7 "
+        val n8 = "my-8 "
+        val n9 = "my-9 "
+        val n10 = "my-10 "
+        val n11 = "my-11 "
+        val n12 = "my-12 "
+        val n14 = "my-14 "
+        val n16 = "my-16 "
+        val n20 = "my-20 "
+        val n24 = "my-24 "
+        val n28 = "my-28 "
+        val n32 = "my-32 "
+        val n36 = "my-36 "
+        val n40 = "my-40 "
+        val n44 = "my-44 "
+        val n48 = "my-48 "
+        val n52 = "my-52 "
+        val n56 = "my-56 "
+        val n60 = "my-60 "
+        val n64 = "my-64 "
+        val n72 = "my-72 "
+        val n80 = "my-80 "
+        val n96 = "my-96 "
+
+        companion object {
+            val instance = Y()
+        }
+    }
+
+    class T private constructor() {
+        val auto = "mt-auto"
+        val n0 = "mt-0 "
+        val n0_5 = "mt-0.5 "
+        val n1 = "mt-px "
+        val n1_5 = "mt-1.5 "
+        val n2 = "mt-2 "
+        val n2_5 = "mt-2.5 "
+        val n3 = "mt-3 "
+        val n3_5 = "mt-3.5 "
+        val n4 = "mt-4 "
+        val n5 = "mt-5 "
+        val n6 = "mt-6 "
+        val n7 = "mt-7 "
+        val n8 = "mt-8 "
+        val n9 = "mt-9 "
+        val n10 = "mt-10 "
+        val n11 = "mt-11 "
+        val n12 = "mt-12 "
+        val n14 = "mt-14 "
+        val n16 = "mt-16 "
+        val n20 = "mt-20 "
+        val n24 = "mt-24 "
+        val n28 = "mt-28 "
+        val n32 = "mt-32 "
+        val n36 = "mt-36 "
+        val n40 = "mt-40 "
+        val n44 = "mt-44 "
+        val n48 = "mt-48 "
+        val n52 = "mt-52 "
+        val n56 = "mt-56 "
+        val n60 = "mt-60 "
+        val n64 = "mt-64 "
+        val n72 = "mt-72 "
+        val n80 = "mt-80 "
+        val n96 = "mt-96 "
+
+        companion object {
+            val instance = T()
+        }
+    }
+
+    class R private constructor() {
+        val auto = "mr-auto"
+        val n0 = "mr-0 "
+        val n0_5 = "mr-0.5 "
+        val n1 = "mr-px "
+        val n1_5 = "mr-1.5 "
+        val n2 = "mr-2 "
+        val n2_5 = "mr-2.5 "
+        val n3 = "mr-3 "
+        val n3_5 = "mr-3.5 "
+        val n4 = "mr-4 "
+        val n5 = "mr-5 "
+        val n6 = "mr-6 "
+        val n7 = "mr-7 "
+        val n8 = "mr-8 "
+        val n9 = "mr-9 "
+        val n10 = "mr-10 "
+        val n11 = "mr-11 "
+        val n12 = "mr-12 "
+        val n14 = "mr-14 "
+        val n16 = "mr-16 "
+        val n20 = "mr-20 "
+        val n24 = "mr-24 "
+        val n28 = "mr-28 "
+        val n32 = "mr-32 "
+        val n36 = "mr-36 "
+        val n40 = "mr-40 "
+        val n44 = "mr-44 "
+        val n48 = "mr-48 "
+        val n52 = "mr-52 "
+        val n56 = "mr-56 "
+        val n60 = "mr-60 "
+        val n64 = "mr-64 "
+        val n72 = "mr-72 "
+        val n80 = "mr-80 "
+        val n96 = "mr-96 "
+
+        companion object {
+            val instance = R()
+        }
+    }
+
+    class B private constructor() {
+        val auto = "mb-auto"
+        val n0 = "mb-0 "
+        val n0_5 = "mb-0.5 "
+        val n1 = "mb-px "
+        val n1_5 = "mb-1.5 "
+        val n2 = "mb-2 "
+        val n2_5 = "mb-2.5 "
+        val n3 = "mb-3 "
+        val n3_5 = "mb-3.5 "
+        val n4 = "mb-4 "
+        val n5 = "mb-5 "
+        val n6 = "mb-6 "
+        val n7 = "mb-7 "
+        val n8 = "mb-8 "
+        val n9 = "mb-9 "
+        val n10 = "mb-10 "
+        val n11 = "mb-11 "
+        val n12 = "mb-12 "
+        val n14 = "mb-14 "
+        val n16 = "mb-16 "
+        val n20 = "mb-20 "
+        val n24 = "mb-24 "
+        val n28 = "mb-28 "
+        val n32 = "mb-32 "
+        val n36 = "mb-36 "
+        val n40 = "mb-40 "
+        val n44 = "mb-44 "
+        val n48 = "mb-48 "
+        val n52 = "mb-52 "
+        val n56 = "mb-56 "
+        val n60 = "mb-60 "
+        val n64 = "mb-64 "
+        val n72 = "mb-72 "
+        val n80 = "mb-80 "
+        val n96 = "mb-96 "
+
+        companion object {
+            val instance = B()
+        }
+    }
+
+    class L private constructor() {
+        val auto = "ml-auto"
+        val n0 = "ml-0 "
+        val n0_5 = "ml-0.5 "
+        val n1 = "ml-px "
+        val n1_5 = "ml-1.5 "
+        val n2 = "ml-2 "
+        val n2_5 = "ml-2.5 "
+        val n3 = "ml-3 "
+        val n3_5 = "ml-3.5 "
+        val n4 = "ml-4 "
+        val n5 = "ml-5 "
+        val n6 = "ml-6 "
+        val n7 = "ml-7 "
+        val n8 = "ml-8 "
+        val n9 = "ml-9 "
+        val n10 = "ml-10 "
+        val n11 = "ml-11 "
+        val n12 = "ml-12 "
+        val n14 = "ml-14 "
+        val n16 = "ml-16 "
+        val n20 = "ml-20 "
+        val n24 = "ml-24 "
+        val n28 = "ml-28 "
+        val n32 = "ml-32 "
+        val n36 = "ml-36 "
+        val n40 = "ml-40 "
+        val n44 = "ml-44 "
+        val n48 = "ml-48 "
+        val n52 = "ml-52 "
+        val n56 = "ml-56 "
+        val n60 = "ml-60 "
+        val n64 = "ml-64 "
+        val n72 = "ml-72 "
+        val n80 = "ml-80 "
+        val n96 = "ml-96 "
+
+        companion object {
+            val instance = L()
+        }
+    }
+
+    companion object {
+        val instance = M()
+    }
+}

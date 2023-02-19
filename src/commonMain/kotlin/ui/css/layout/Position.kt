@@ -1,0 +1,372 @@
+package ui.css.layout
+
+val position = Position.instance
+val static = position.static
+val fixed = position.fixed
+val absolute = position.absolute
+val relative = position.relative
+val sticky = position.sticky
+
+val inset = Inset.instance
+val top = Top.instance
+val right = Right.instance
+val bottom = Bottom.instance
+val left = Left.instance
+
+class Position private constructor() {
+    val static = "static "
+    val fixed = "fixed "
+    val absolute = "absolute "
+    val relative = "relative "
+    val sticky = "sticky "
+
+    companion object {
+        val instance: Position = Position()
+    }
+}
+
+class Inset private constructor() {
+    val n0 = "inset-0 "
+    val px = "inset-px "
+    val n0_5 = "inset-0.5 "
+    val n1 = "inset-1 "
+    val n1_5 = "inset-1.5 "
+    val n2 = "inset-2 "
+    val n2_5 = "inset-2.5 "
+    val n3 = "inset-3 "
+    val n3_5 = "inset-3.5 "
+    val n4 = "inset-4 "
+    val n5 = "inset-5 "
+    val n6 = "inset-6 "
+    val n7 = "inset-7 "
+    val n8 = "inset-8 "
+    val n9 = "inset-9 "
+    val n10 = "inset-10 "
+    val n11 = "inset-11 "
+    val n12 = "inset-12 "
+    val n14 = "inset-14 "
+    val n16 = "inset-16 "
+    val n20 = "inset-20 "
+    val n24 = "inset-24 "
+    val n28 = "inset-28 "
+    val n32 = "inset-32 "
+    val n36 = "inset-36 "
+    val n40 = "inset-40 "
+    val n44 = "inset-44 "
+    val n48 = "inset-48 "
+    val n52 = "inset-52 "
+    val n56 = "inset-56 "
+    val n60 = "inset-60 "
+    val n64 = "inset-64 "
+    val n72 = "inset-72 "
+    val n80 = "inset-80 "
+    val n96 = "inset-96 "
+    val f1_2 = "inset-1/2 "
+    val f1_3 = "inset-1/3 "
+    val f2_3 = "inset-2/3 "
+    val f1_4 = "inset-1/4 "
+    val f2_4 = "inset-2/4 "
+    val f3_4 = "inset-3/4 "
+    val auto = "inset-auto "
+
+    val x = X.instance
+    val y = Y.instance
+
+    companion object {
+        val instance = Inset()
+    }
+
+    class X private constructor() {
+        val n0 = "inset-x-0 "
+        val px = "inset-x-px "
+        val n0_5 = "inset-x-0.5 "
+        val n1 = "inset-x-1 "
+        val n1_5 = "inset-x-1.5 "
+        val n2 = "inset-x-2 "
+        val n2_5 = "inset-x-2.5 "
+        val n3 = "inset-x-3 "
+        val n3_5 = "inset-x-3.5 "
+        val n4 = "inset-x-4 "
+        val n5 = "inset-x-5 "
+        val n6 = "inset-x-6 "
+        val n7 = "inset-x-7 "
+        val n8 = "inset-x-8 "
+        val n9 = "inset-x-9 "
+        val n10 = "inset-x-10 "
+        val n11 = "inset-x-11 "
+        val n12 = "inset-x-12 "
+        val n14 = "inset-x-14 "
+        val n16 = "inset-x-16 "
+        val n20 = "inset-x-20 "
+        val n24 = "inset-x-24 "
+        val n28 = "inset-x-28 "
+        val n32 = "inset-x-32 "
+        val n36 = "inset-x-36 "
+        val n40 = "inset-x-40 "
+        val n44 = "inset-x-44 "
+        val n48 = "inset-x-48 "
+        val n52 = "inset-x-52 "
+        val n56 = "inset-x-56 "
+        val n60 = "inset-x-60 "
+        val n64 = "inset-x-64 "
+        val n72 = "inset-x-72 "
+        val n80 = "inset-x-80 "
+        val n96 = "inset-x-96 "
+        val f1_2 = "inset-x-1/2 "
+        val f1_3 = "inset-x-1/3 "
+        val f2_3 = "inset-x-2/3 "
+        val f1_4 = "inset-x-1/4 "
+        val f2_4 = "inset-x-2/4 "
+        val f3_4 = "inset-x-3/4 "
+        val auto = "inset-x-auto "
+
+        companion object {
+            val instance = X()
+        }
+    }
+
+    class Y private constructor() {
+        val n0 = "inset-y-0 "
+        val px = "inset-y-px "
+        val n0_5 = "inset-y-0.5 "
+        val n1 = "inset-y-1 "
+        val n1_5 = "inset-y-1.5 "
+        val n2 = "inset-y-2 "
+        val n2_5 = "inset-y-2.5 "
+        val n3 = "inset-y-3 "
+        val n3_5 = "inset-y-3.5 "
+        val n4 = "inset-y-4 "
+        val n5 = "inset-y-5 "
+        val n6 = "inset-y-6 "
+        val n7 = "inset-y-7 "
+        val n8 = "inset-y-8 "
+        val n9 = "inset-y-9 "
+        val n10 = "inset-y-10 "
+        val n11 = "inset-y-11 "
+        val n12 = "inset-y-12 "
+        val n14 = "inset-y-14 "
+        val n16 = "inset-y-16 "
+        val n20 = "inset-y-20 "
+        val n24 = "inset-y-24 "
+        val n28 = "inset-y-28 "
+        val n32 = "inset-y-32 "
+        val n36 = "inset-y-36 "
+        val n40 = "inset-y-40 "
+        val n44 = "inset-y-44 "
+        val n48 = "inset-y-48 "
+        val n52 = "inset-y-52 "
+        val n56 = "inset-y-56 "
+        val n60 = "inset-y-60 "
+        val n64 = "inset-y-64 "
+        val n72 = "inset-y-72 "
+        val n80 = "inset-y-80 "
+        val n96 = "inset-y-96 "
+        val f1_2 = "inset-y-1/2 "
+        val f1_3 = "inset-y-1/3 "
+        val f2_3 = "inset-y-2/3 "
+        val f1_4 = "inset-y-1/4 "
+        val f2_4 = "inset-y-2/4 "
+        val f3_4 = "inset-y-3/4 "
+        val auto = "inset-y-auto "
+
+        companion object {
+            val instance = Y()
+        }
+    }
+}
+
+class Top private constructor() {
+    val n0 = "top-0 "
+    val px = "top-px "
+    val n0_5 = "top-0.5 "
+    val n1 = "top-1 "
+    val n1_5 = "top-1.5 "
+    val n2 = "top-2 "
+    val n2_5 = "top-2.5 "
+    val n3 = "top-3 "
+    val n3_5 = "top-3.5 "
+    val n4 = "top-4 "
+    val n5 = "top-5 "
+    val n6 = "top-6 "
+    val n7 = "top-7 "
+    val n8 = "top-8 "
+    val n9 = "top-9 "
+    val n10 = "top-10 "
+    val n11 = "top-11 "
+    val n12 = "top-12 "
+    val n14 = "top-14 "
+    val n16 = "top-16 "
+    val n20 = "top-20 "
+    val n24 = "top-24 "
+    val n28 = "top-28 "
+    val n32 = "top-32 "
+    val n36 = "top-36 "
+    val n40 = "top-40 "
+    val n44 = "top-44 "
+    val n48 = "top-48 "
+    val n52 = "top-52 "
+    val n56 = "top-56 "
+    val n60 = "top-60 "
+    val n64 = "top-64 "
+    val n72 = "top-72 "
+    val n80 = "top-80 "
+    val n96 = "top-96 "
+    val f1_2 = "top-1/2 "
+    val f1_3 = "top-1/3 "
+    val f2_3 = "top-2/3 "
+    val f1_4 = "top-1/4 "
+    val f2_4 = "top-2/4 "
+    val f3_4 = "top-3/4 "
+    val auto = "top-auto "
+
+    companion object {
+        val instance = Top()
+    }
+}
+
+class Right private constructor() {
+    val n0 = "right-0 "
+    val px = "right-px "
+    val n0_5 = "right-0.5 "
+    val n1 = "right-1 "
+    val n1_5 = "right-1.5 "
+    val n2 = "right-2 "
+    val n2_5 = "right-2.5 "
+    val n3 = "right-3 "
+    val n3_5 = "right-3.5 "
+    val n4 = "right-4 "
+    val n5 = "right-5 "
+    val n6 = "right-6 "
+    val n7 = "right-7 "
+    val n8 = "right-8 "
+    val n9 = "right-9 "
+    val n10 = "right-10 "
+    val n11 = "right-11 "
+    val n12 = "right-12 "
+    val n14 = "right-14 "
+    val n16 = "right-16 "
+    val n20 = "right-20 "
+    val n24 = "right-24 "
+    val n28 = "right-28 "
+    val n32 = "right-32 "
+    val n36 = "right-36 "
+    val n40 = "right-40 "
+    val n44 = "right-44 "
+    val n48 = "right-48 "
+    val n52 = "right-52 "
+    val n56 = "right-56 "
+    val n60 = "right-60 "
+    val n64 = "right-64 "
+    val n72 = "right-72 "
+    val n80 = "right-80 "
+    val n96 = "right-96 "
+    val f1_2 = "right-1/2 "
+    val f1_3 = "right-1/3 "
+    val f2_3 = "right-2/3 "
+    val f1_4 = "right-1/4 "
+    val f2_4 = "right-2/4 "
+    val f3_4 = "right-3/4 "
+    val auto = "right-auto "
+
+    companion object {
+        val instance = Right()
+    }
+}
+
+class Bottom private constructor() {
+    val n0 = "bottom-0 "
+    val px = "bottom-px "
+    val n0_5 = "bottom-0.5 "
+    val n1 = "bottom-1 "
+    val n1_5 = "bottom-1.5 "
+    val n2 = "bottom-2 "
+    val n2_5 = "bottom-2.5 "
+    val n3 = "bottom-3 "
+    val n3_5 = "bottom-3.5 "
+    val n4 = "bottom-4 "
+    val n5 = "bottom-5 "
+    val n6 = "bottom-6 "
+    val n7 = "bottom-7 "
+    val n8 = "bottom-8 "
+    val n9 = "bottom-9 "
+    val n10 = "bottom-10 "
+    val n11 = "bottom-11 "
+    val n12 = "bottom-12 "
+    val n14 = "bottom-14 "
+    val n16 = "bottom-16 "
+    val n20 = "bottom-20 "
+    val n24 = "bottom-24 "
+    val n28 = "bottom-28 "
+    val n32 = "bottom-32 "
+    val n36 = "bottom-36 "
+    val n40 = "bottom-40 "
+    val n44 = "bottom-44 "
+    val n48 = "bottom-48 "
+    val n52 = "bottom-52 "
+    val n56 = "bottom-56 "
+    val n60 = "bottom-60 "
+    val n64 = "bottom-64 "
+    val n72 = "bottom-72 "
+    val n80 = "bottom-80 "
+    val n96 = "bottom-96 "
+    val f1_2 = "bottom-1/2 "
+    val f1_3 = "bottom-1/3 "
+    val f2_3 = "bottom-2/3 "
+    val f1_4 = "bottom-1/4 "
+    val f2_4 = "bottom-2/4 "
+    val f3_4 = "bottom-3/4 "
+    val auto = "bottom-auto "
+
+    companion object {
+        val instance = Bottom()
+    }
+}
+
+class Left private constructor() {
+    val n0 = "left-0 "
+    val px = "left-px "
+    val n0_5 = "left-0.5 "
+    val n1 = "left-1 "
+    val n1_5 = "left-1.5 "
+    val n2 = "left-2 "
+    val n2_5 = "left-2.5 "
+    val n3 = "left-3 "
+    val n3_5 = "left-3.5 "
+    val n4 = "left-4 "
+    val n5 = "left-5 "
+    val n6 = "left-6 "
+    val n7 = "left-7 "
+    val n8 = "left-8 "
+    val n9 = "left-9 "
+    val n10 = "left-10 "
+    val n11 = "left-11 "
+    val n12 = "left-12 "
+    val n14 = "left-14 "
+    val n16 = "left-16 "
+    val n20 = "left-20 "
+    val n24 = "left-24 "
+    val n28 = "left-28 "
+    val n32 = "left-32 "
+    val n36 = "left-36 "
+    val n40 = "left-40 "
+    val n44 = "left-44 "
+    val n48 = "left-48 "
+    val n52 = "left-52 "
+    val n56 = "left-56 "
+    val n60 = "left-60 "
+    val n64 = "left-64 "
+    val n72 = "left-72 "
+    val n80 = "left-80 "
+    val n96 = "left-96 "
+    val f1_2 = "left-1/2 "
+    val f1_3 = "left-1/3 "
+    val f2_3 = "left-2/3 "
+    val f1_4 = "left-1/4 "
+    val f2_4 = "left-2/4 "
+    val f3_4 = "left-3/4 "
+    val auto = "left-auto "
+
+    companion object {
+        val instance = Left()
+    }
+}
