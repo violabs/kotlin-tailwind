@@ -1,6 +1,7 @@
 package ui.css.flexGrid
 
 val align = Align.instance
+val items = align.items
 
 class Align private constructor() {
     val start = "content-start "

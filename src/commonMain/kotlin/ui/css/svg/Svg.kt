@@ -1,6 +1,10 @@
 package ui.css.svg
 
-val svg = Svg.instance
+import ui.css.typography.Text
+
+val svgCss = Svg.instance
+val fill = svgCss.fill
+val stroke = svgCss.stroke
 
 class Svg private constructor() {
 
@@ -416,27 +420,29 @@ class Svg private constructor() {
         val n2 = "stroke-2 "
 
         // COLORS
-        val slate = instance
-        val gray = instance
-        val zinc = instance
-        val neutral = instance
-        val stone = instance
-        val red = instance
-        val orange = instance
-        val amber = instance
-        val yellow = instance
-        val lime = instance
-        val green = instance
-        val emerald = instance
-        val teal = instance
-        val cyan = instance
-        val sky = instance
-        val blue = instance
-        val indigo = instance
-        val violet = instance
-        val fuchsia = instance
-        val pink = instance
-        val rose = instance
+
+        val slate = Text.Slate.instance
+        val gray = Text.Gray.instance
+        val zinc = Text.Zinc.instance
+        val neutral = Text.Neutral.instance
+        val stone = Text.Stone.instance
+        val red = Text.Red.instance
+        val orange = Text.Orange.instance
+        val amber = Text.Amber.instance
+        val yellow = Text.Yellow.instance
+        val lime = Text.Lime.instance
+        val green = Text.Green.instance
+        val emerald = Text.Emerald.instance
+        val teal = Text.Teal.instance
+        val cyan = Text.Cyan.instance
+        val sky = Text.Sky.instance
+        val blue = Text.Blue.instance
+        val indigo = Text.Indigo.instance
+        val violet = Text.Violet.instance
+        val purple = Text.Purple.instance
+        val fuchsia = Text.Fuchsia.instance
+        val pink = Text.Pink.instance
+        val rose = Text.Rose.instance
 
         companion object {
             val instance: Stroke = Stroke()
