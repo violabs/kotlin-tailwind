@@ -3,7 +3,7 @@ package ui.css.spacing
 val m = M.instance
 
 class M private constructor() {
-    val auto = "m-auto"
+    val auto = "m-auto "
     val n0 = "m-0 "
     val n0_5 = "m-0.5 "
     val n1 = "m-px "

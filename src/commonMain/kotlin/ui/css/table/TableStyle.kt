@@ -5,15 +5,15 @@ val tableStyle = TableStyle.instance
 class TableStyle private constructor() {
     val border = Border.instance
     val auto = "table-auto "
-    val fixed = "table-fixed"
+    val fixed = "table-fixed "
 
     companion object {
         val instance: TableStyle = TableStyle()
     }
 
     class Border private constructor() {
-        val collapse = "border-collapse"
-        val separate = "border-separate"
+        val collapse = "border-collapse "
+        val separate = "border-separate "
         val spacing = Spacing.instance
 
         companion object {

@@ -504,6 +504,10 @@ class Bg private constructor() {
             val r = "bg-gradient-to-r "
             val b = "bg-gradient-to-b "
             val l = "bg-gradient-to-l "
+            val tr = "bg-gradient-to-tr "
+            val br = "bg-gradient-to-br "
+            val bl = "bg-gradient-to-bl "
+            val tl = "bg-gradient-to-tl "
 
             val inherit = "to-inherit "
             val current = "to-current "
