@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.violabs"
-version = "1.2-SNAPSHOT"
+version = "0.0.2-beta"
 
 repositories {
     mavenCentral()

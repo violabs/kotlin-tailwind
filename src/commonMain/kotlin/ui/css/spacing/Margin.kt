@@ -132,7 +132,7 @@ class M private constructor() {
     }
 
     class T private constructor() {
-        val auto = "mt-auto"
+        val auto = "mt-auto "
         val n0 = "mt-0 "
         val n0_5 = "mt-0.5 "
         val n1 = "mt-px "
@@ -174,7 +174,7 @@ class M private constructor() {
     }
 
     class R private constructor() {
-        val auto = "mr-auto"
+        val auto = "mr-auto "
         val n0 = "mr-0 "
         val n0_5 = "mr-0.5 "
         val n1 = "mr-px "
